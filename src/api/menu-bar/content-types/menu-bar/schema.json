@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_bars",
+  "info": {
+    "singularName": "menu-bar",
+    "pluralName": "menu-bars",
+    "displayName": "menu_bar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "menu_name": {
+      "type": "string"
+    },
+    "menu_icons": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
